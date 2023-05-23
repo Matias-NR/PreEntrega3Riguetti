@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+body section {
+  display: flex;
+  justify-content: center;
+}
+
+.logo-nav {
+  width: 100px;
+}
+
+header nav {
+  background-color: rgb(240, 177, 152);
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav ul {
+  display: none;
+}
+
+header nav span {
+  margin-right: 20px;
+}
+
+@media (min-width: 576px) {
+  header nav ul {
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  header nav ul li {
+    margin: 0 10px;
+  }
+
+  .link {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+  }
+
+  .link_seleccionado {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+  }
+
+  .link_seleccionado:hover {
+    cursor: default;
+  }
+
+  .link:hover {
+    text-decoration: underline;
+  }
+
+  header nav span {
+    display: none;
+  }
+}

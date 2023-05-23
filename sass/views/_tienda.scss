@@ -1,0 +1,168 @@
+.tienda_titulo {
+  font-size: 60px;
+  color: rgb(240, 177, 152);
+  text-align: center;
+  text-decoration: underline;
+}
+
+.tienda_productos {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  justify-content: space-around;
+  justify-items: center;
+
+  &-florero {
+    padding: 30px;
+    width: 350px;
+
+    div img {
+      width: 100%;
+      border-radius: 50px;
+      margin-bottom: 5px;
+    }
+    h5 {
+      font-size: 30px;
+      margin-bottom: 5px;
+      text-align: center;
+    }
+    p {
+      color: greenyellow;
+      font-style: oblique;
+      text-shadow: 1px 1px 1px black;
+      text-align: center;
+    }
+  }
+
+  &-utencillos {
+    padding: 30px;
+    width: 350px;
+
+    div img {
+      width: 100%;
+      border-radius: 50px;
+      margin-bottom: 5px;
+    }
+
+    h5 {
+      font-size: 30px;
+      margin-bottom: 5px;
+      text-align: center;
+    }
+
+    p {
+      text-align: center;
+      color: greenyellow;
+      font-style: oblique;
+      text-shadow: 1px 1px 1px black;
+    }
+  }
+
+  &-vasos {
+    padding: 30px;
+    width: 350px;
+
+    div img {
+      width: 100%;
+      border-radius: 50px;
+      margin-bottom: 5px;
+    }
+
+    h5 {
+      font-size: 30px;
+      margin-bottom: 5px;
+      text-align: center;
+    }
+
+    p {
+      text-align: center;
+      color: greenyellow;
+      font-style: oblique;
+      text-shadow: 1px 1px 1px black;
+    }
+  }
+
+  &-tupper {
+    padding: 30px;
+    width: 350px;
+
+    div img {
+      width: 100%;
+      border-radius: 50px;
+      margin-bottom: 5px;
+    }
+
+    h5 {
+      font-size: 30px;
+      margin-bottom: 5px;
+      text-align: center;
+    }
+
+    p {
+      text-align: center;
+      color: greenyellow;
+      font-style: oblique;
+      text-shadow: 1px 1px 1px black;
+    }
+  }
+
+  &-cortina {
+    padding: 30px;
+    width: 350px;
+
+    div img {
+      width: 100%;
+      border-radius: 50px;
+      margin-bottom: 5px;
+    }
+
+    h5 {
+      font-size: 30px;
+      margin-bottom: 5px;
+      text-align: center;
+    }
+
+    p {
+      text-align: center;
+      color: greenyellow;
+      font-style: oblique;
+      text-shadow: 1px 1px 1px black;
+    }
+  }
+
+  &-ollas {
+    padding: 30px;
+    width: 350px;
+
+    div img {
+      width: 100%;
+      border-radius: 50px;
+      margin-bottom: 5px;
+    }
+
+    h5 {
+      font-size: 30px;
+      margin-bottom: 5px;
+      text-align: center;
+    }
+
+    p {
+      text-align: center;
+      color: greenyellow;
+      font-style: oblique;
+      text-shadow: 1px 1px 1px black;
+    }
+  }
+}
+
+@media (min-width: 576px) {
+  .tienda_productos {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 768px) {
+  .tienda_productos {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

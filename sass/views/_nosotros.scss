@@ -1,0 +1,19 @@
+.nosotros_container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  gap: 50px;
+}
+
+.nosotros_imagen {
+  border-radius: 10px;
+  box-shadow: 0 25px 20px -12px rgba(0, 0, 0, 0.7);
+}
+
+@media (min-width: 576px) {
+  .nosotros_container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

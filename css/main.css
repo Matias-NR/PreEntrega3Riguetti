@@ -1,0 +1,301 @@
+.footer {
+  background-color: rgb(240, 177, 152);
+  text-align: center;
+}
+
+.rrss .whatsapp {
+  color: white;
+  font-size: 30px;
+}
+.rrss .whatsapp:hover {
+  color: green;
+}
+.rrss .instagram {
+  color: white;
+  font-size: 30px;
+}
+.rrss .instagram:hover {
+  color: #c92d8f;
+}
+.rrss .facebook {
+  color: white;
+  font-size: 30px;
+}
+.rrss .facebook:hover {
+  color: blue;
+}
+
+.rrss a {
+  padding: 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+body section {
+  display: flex;
+  justify-content: center;
+}
+
+.logo-nav {
+  width: 100px;
+}
+
+header nav {
+  background-color: rgb(240, 177, 152);
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav ul {
+  display: none;
+}
+
+header nav span {
+  margin-right: 20px;
+}
+
+@media (min-width: 576px) {
+  header nav ul {
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  header nav ul li {
+    margin: 0 10px;
+  }
+  .link {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+  }
+  .link_seleccionado {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+  }
+  .link_seleccionado:hover {
+    cursor: default;
+  }
+  .link:hover {
+    text-decoration: underline;
+  }
+  header nav span {
+    display: none;
+  }
+}
+.banner_titulo {
+  color: rgb(240, 177, 152);
+  text-decoration: underline;
+  margin: 0 25%;
+}
+
+.mt-4 {
+  display: inline-block;
+  justify-content: center;
+}
+.mt-4 .banner_texto {
+  background-color: rgb(240, 177, 152);
+  color: white;
+  width: 1200px;
+}
+
+.objeto {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.foto_objeto {
+  width: 200px;
+  height: 300px;
+  margin-bottom: 20px;
+}
+
+.tienda_titulo {
+  font-size: 60px;
+  color: rgb(240, 177, 152);
+  text-align: center;
+  text-decoration: underline;
+}
+
+.tienda_productos {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  justify-content: space-around;
+  justify-items: center;
+}
+.tienda_productos-florero {
+  padding: 30px;
+  width: 350px;
+}
+.tienda_productos-florero div img {
+  width: 100%;
+  border-radius: 50px;
+  margin-bottom: 5px;
+}
+.tienda_productos-florero h5 {
+  font-size: 30px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+.tienda_productos-florero p {
+  color: greenyellow;
+  font-style: oblique;
+  text-shadow: 1px 1px 1px black;
+  text-align: center;
+}
+.tienda_productos-utencillos {
+  padding: 30px;
+  width: 350px;
+}
+.tienda_productos-utencillos div img {
+  width: 100%;
+  border-radius: 50px;
+  margin-bottom: 5px;
+}
+.tienda_productos-utencillos h5 {
+  font-size: 30px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+.tienda_productos-utencillos p {
+  text-align: center;
+  color: greenyellow;
+  font-style: oblique;
+  text-shadow: 1px 1px 1px black;
+}
+.tienda_productos-vasos {
+  padding: 30px;
+  width: 350px;
+}
+.tienda_productos-vasos div img {
+  width: 100%;
+  border-radius: 50px;
+  margin-bottom: 5px;
+}
+.tienda_productos-vasos h5 {
+  font-size: 30px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+.tienda_productos-vasos p {
+  text-align: center;
+  color: greenyellow;
+  font-style: oblique;
+  text-shadow: 1px 1px 1px black;
+}
+.tienda_productos-tupper {
+  padding: 30px;
+  width: 350px;
+}
+.tienda_productos-tupper div img {
+  width: 100%;
+  border-radius: 50px;
+  margin-bottom: 5px;
+}
+.tienda_productos-tupper h5 {
+  font-size: 30px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+.tienda_productos-tupper p {
+  text-align: center;
+  color: greenyellow;
+  font-style: oblique;
+  text-shadow: 1px 1px 1px black;
+}
+.tienda_productos-cortina {
+  padding: 30px;
+  width: 350px;
+}
+.tienda_productos-cortina div img {
+  width: 100%;
+  border-radius: 50px;
+  margin-bottom: 5px;
+}
+.tienda_productos-cortina h5 {
+  font-size: 30px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+.tienda_productos-cortina p {
+  text-align: center;
+  color: greenyellow;
+  font-style: oblique;
+  text-shadow: 1px 1px 1px black;
+}
+.tienda_productos-ollas {
+  padding: 30px;
+  width: 350px;
+}
+.tienda_productos-ollas div img {
+  width: 100%;
+  border-radius: 50px;
+  margin-bottom: 5px;
+}
+.tienda_productos-ollas h5 {
+  font-size: 30px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+.tienda_productos-ollas p {
+  text-align: center;
+  color: greenyellow;
+  font-style: oblique;
+  text-shadow: 1px 1px 1px black;
+}
+
+@media (min-width: 576px) {
+  .tienda_productos {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 768px) {
+  .tienda_productos {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+.nosotros_container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  gap: 50px;
+}
+
+.nosotros_imagen {
+  border-radius: 10px;
+  box-shadow: 0 25px 20px -12px rgba(0, 0, 0, 0.7);
+}
+
+@media (min-width: 576px) {
+  .nosotros_container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+.contacto_formulario {
+  display: flex;
+  flex-direction: column;
+}
+
+.contacto_enviar {
+  margin-top: 20px;
+  background-color: rgb(240, 177, 152);
+  border-radius: 10px;
+  padding: 0 15px;
+}

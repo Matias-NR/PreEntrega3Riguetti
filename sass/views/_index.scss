@@ -1,0 +1,27 @@
+.banner_titulo {
+  color: rgb(240, 177, 152);
+  text-decoration: underline;
+  margin: 0 25%;
+}
+
+.mt-4 {
+  display: inline-block;
+  justify-content: center;
+
+  .banner_texto {
+    background-color: rgb(240, 177, 152);
+    color: white;
+    width: 1200px;
+  }
+}
+.objeto {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.foto_objeto {
+  width: 200px;
+  height: 300px;
+  margin-bottom: 20px;
+}

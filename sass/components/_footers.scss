@@ -1,0 +1,27 @@
+.footer {
+  background-color: rgb(240, 177, 152);
+
+  text-align: center;
+}
+
+.rrss {
+  $socialIcons: (
+    whatsapp: green,
+    instagram: #c92d8f,
+    facebook: blue,
+  );
+  @each $socialName, $socialColor in $socialIcons {
+    .#{$socialName} {
+      color: white;
+      font-size: 30px;
+
+      &:hover {
+        color: $socialColor;
+      }
+    }
+  }
+}
+
+.rrss a {
+  padding: 20px;
+}

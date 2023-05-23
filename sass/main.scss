@@ -1,0 +1,13 @@
+// UTILS
+@import "./utils/variables";
+@import "./utils/global";
+
+//COMPONENTS
+@import "./components/footers";
+@import "./components/header";
+
+//VIEWS
+@import "./views/index";
+@import "./views/tienda";
+@import "./views/nosotros";
+@import "./views/contacto";

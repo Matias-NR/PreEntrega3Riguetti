@@ -1,0 +1,11 @@
+// etiquetas que entran en todas las paginas
+@mixin cards {
+  padding: 30px;
+  width: 350px;
+}
+
+@mixin templateGrid($colum) {
+  display: grid;
+  grid-template-columns: repeat($colum, 1fr);
+  gap: 20px;
+}
